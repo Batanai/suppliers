@@ -1,0 +1,26 @@
+.supplierList__input {
+  display: flex;
+  padding: 5px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid lightgray;
+}
+
+.supplierList__inputField {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  outline-width: 0;
+  font-size: medium;
+  align-content: center;
+}
+
+.supplierList__inputButton {
+  border: none;
+  margin-right: 20px;
+  background-color: #f33d71;
+  font-weight: bolder;
+  color: white;
+  cursor: pointer;
+}

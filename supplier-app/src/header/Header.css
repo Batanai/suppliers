@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 100;
+  border-bottom: 1px solid #f9f9f9;
+}
+
+.header__label {
+  font-size: 30px;
+  font-weight: 600;
+  height: 40px;
+  color: #f33d71;
+  outline-width: 0;
+  cursor: pointer;
+}
+
+.header__nav {
+  cursor: pointer;
+}

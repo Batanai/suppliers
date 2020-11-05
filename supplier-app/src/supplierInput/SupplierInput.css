@@ -1,0 +1,42 @@
+.supplierInput {
+  background-color: #f8f8f8;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+}
+
+.supplierInput__container {
+  padding: 100px;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px;
+}
+
+.supplierInput__container > h1 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.supplierInput__container > form > h5 {
+  margin-bottom: 5px;
+}
+
+.supplierInput__container > form > input {
+  height: 30px;
+  margin-bottom: 10px;
+  background-color: white;
+  width: 98%;
+}
+
+.supplierInput__btn {
+  background-color: #f33d71;
+  border: 1px solid;
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: white;
+  margin-top: 10px;
+}
